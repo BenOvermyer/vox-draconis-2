@@ -18,11 +18,32 @@ plausible to run a campaign where no combat takes place. Such a game
 might focus on the social intrigues of a noble court, or perhaps the
 misadventures of a group of street performers. This is up to you.
 
+The game as a narrative device and set of social rules for a group of gamers 
+also tries to support modern ideas of identity, gender, ancestry, and culture. 
+The cultures in the setting may not adhere to these ideals, however. Components
+of the setting that you are uncomfortable with should be modified or removed
+from your own group's campaigns to suit.
+
+# How This Game Works
+
+Vox Draconis requires at least two players, and works best with four or five. 
+One person acts as the Game Master (GM), and the rest act as individual characters. The
+GM is responsible for describing scenes for the others to participate in.
+They are also responsible for making sure everyone is engaged in the game and
+having fun.
+
+To play Vox Draconis, the group will need some dice. Most of these are the common
+six-sided dice you see everywhere. The rest have four sides, eight sides, ten sides,
+twelve sides, or twenty sides. You can find them for sale online or in
+local shops that specialize in tabletop games.
+
 # Character Creation
 
 ## Attributes
 
 Every character has the following attributes. These define their physical, mental, social, and magical capabilities.
+Each of these attributes has a positive or negative score. They range from -3 to +3. These scores modify rolls
+based on those attributes.
 
 There are four categories: Physical, Mental, Social, and Arcane. Each category has the following attributes.
 
@@ -34,15 +55,17 @@ There are four categories: Physical, Mental, Social, and Arcane. Each category h
 
 In total, there are twelve attributes. For brevity's sake, sometimes you will see references to abbreviations of these attributes. These abbreviations will always have the first letter of the category and the first letter of the attribute. So, Physical Strength would be abbreviated PS, and Arcane Endurance would be abbreviated AE.
 
-At the beginning of character creation, determine the value of each attribute. Choose one of the two scoring methods below.
+At the beginning of character creation, assign the following scores to your attributes.
 
-### Random Method
+* 2 scores of +2
+* 3 scores of +1
+* 4 scores of 0
+* 2 scores of -1
+* 1 score of -2
 
-You can determine attributes randomly. To do this, roll 3d6 and add 2 to the total. The result is the score for an attribute. Repeat this for every attribute.
-
-### Point-Buy Method
-
-For a more balanced approach, you can instead use the point-buy method. In this method, you have 120 points to allocate among the attributes. No attribute can be over 14 or under 8 when using point-buy.
+Note that the best and worst scores (+3 and -3, respectively) are not included in character creation.
+As game events alter characters, attributes may increase or decrease. They will never go below -3 or
+above +3, however.
 
 ## Choose Two Ancestries
 
@@ -60,9 +83,9 @@ Pick an attunement. This will grant you a supernatural ability and an affinity f
 
 After all the above is accounted for, calculate your derived statistics. These are Life Points and Crisis Points. Life Points determine how much damage your character can take before falling unconscious. Crisis Points determine how many times your character can narrowly avoid disaster. They are calculated as follows.
 
-**Life Points:** Physical Endurance + 5
+**Life Points:** 10 + Physical Endurance
 
-**Crisis Points:** (Mental Endurance + Physical Endurance + Social Endurance + Arcane Endurance) / 4 (round down)
+**Crisis Points:** Mental Endurance + Physical Endurance + Social Endurance + Arcane Endurance
 
 ## Starting Equipment
 
@@ -76,6 +99,21 @@ Characters never gain more Life Points. To increase their durability, they must 
 
 New Crisis Points can be gained by spending Experience Points. Each Crisis Point costs 10 Experience Points.
 
+# Skills
+
+Many actions in Vox Draconis are covered by simple attribute rolls. However, some actions are covered
+by skills instead. If an action falls under the area described by a skill, a character attempting that
+action must do a skill roll.
+
+A skill roll is an attribute roll, but may also include a "skill proficiency" modifier. Skill proficiency
+is either +1 or +2.
+
+Sometimes, a skill proficiency is required to even attempt a particular action. For example, a character
+would need a skill proficiency in metallurgy to produce an alloy.
+
+Skill proficiencies are granted by classes in character creation. They may also be learned through the
+course of gameplay. See the Developments chapter for further information.
+
 # Gameplay
 
 The flow of gameplay runs in turns. The Game Master will describe a scene, and then players take turns describing what they do. In combat, turns are more structured, and each enemy has a separate turn.
@@ -88,7 +126,18 @@ Outside of combat, turns can occur in whatever order fits the scene. In combat, 
 
 In a turn, a character can do one major action and one minor action. Major actions include casting a spell, attacking, setting a trap, or any other action that takes the character's full attention. A minor action includes movement, swapping equipped weapons, or other things that the character can do while doing major actions.
 
-Most of the time, an action is going to require an attribute roll. The player rolls a twenty-sided die and tries to get under the relevant attribute score. The number they must roll under may be modified by skills or by the difficulty of the task.
+Most of the time, an action requires an "attribute roll." The player rolls a twenty-sided die and adds the relevant attribute score.
+There may be other modifiers. The result is compared to a target number that the GM specifies from the following:
+
+Difficulty     Target Number
+-------------- --------------
+Very Easy      7
+Easy           10
+Moderate       12
+Hard           15
+Very Hard      17
+
+Table: Target numbers based on difficulty
 
 ## Crisis Rolls
 
@@ -116,49 +165,79 @@ A successful hit deals damage equal to the amount specified by the weapon. Melee
 
 ## Death
 
-If a character's Life Points reach zero or less, they fall unconscious. When this happens, the character must make a Crisis Roll. If they fail, they must spend a Crisis Point to stay alive. If the roll is successful or they spend the Crisis Point, they don't need to continue rolling, and the character stabilizes but remains unconscious.
+If a character's Life Points reach zero or less, they fall unconscious. When this happens, 
+the character must make a Crisis Roll. If they fail, they must spend a Crisis Point to stay 
+alive. If the roll is successful or they spend the Crisis Point, they don't need to continue 
+rolling, and the character stabilizes but remains unconscious.
 
 ## Social Engagements
 
-A social engagement is a conversation of importance between two or more sides. Before it begins, divide the participants into sides. Every participant will argue for their side. Each side determines what they're arguing for before the engagement begins.
+A social engagement is a conversation of importance between two or more sides. Before it begins, 
+divide the participants into sides. Every participant will argue for their side. Each side 
+determines what they're arguing for before the engagement begins.
 
-Much like combat, each participant has a turn. On their turn, they may choose to take one of the following actions, or give up their turn for the round. Every social engagement lasts for three rounds. At the end
-of the three rounds, the total points of each side is compared, and the highest wins. In the event of a tie, there is no victor, and the engagement is a draw.
+Much like combat, each participant has a turn. On their turn, they may choose to take one of the 
+following actions, or give up their turn for the round. Every social engagement lasts for three 
+rounds. At the end of the three rounds, the total points of each side is compared, and the highest 
+wins. In the event of a tie, there is no victor, and the engagement is a draw.
+
+No side can go below zero points.
 
 Once the engagement is over, the GM determines the result of the winning argument.
 
 ### Persuade
 
-This is an attempt to convince another participant of the correctness of your argument. Roll a twenty-sided die and add your Social Strength. If it is higher than the other participant's Social Endurance, you gain a point for your side.
+This is an attempt to convince another participant of the correctness of your argument. Roll a 
+twenty-sided die and add your Social Strength. The target number is modified by the other
+participant's Social Endurance.
 
 ### Dissuade
 
-You can try and reduce the points of another participant's side. Roll a twenty-sided die and add your Social Dexterity. If it is higher than the other participant's Social Dexterity, their side loses a point. That side cannot go below zero points.
+You can try and reduce the points of another participant's side. Roll a twenty-sided die 
+and add your Social Dexterity. The target number is modified by the other participant's
+Social Dexterity. If you win, the other side loses a point, if possible.
 
 ### Riposte
 
-Instead of taking a direct action, you can complicate the result of the entire engagement by making a Riposte. Roll a twenty-sided die and add your Social Dexterity. If the result is higher than 10, then regardless of the result of the social engagement, there will be a complication. The GM
-chooses the complication.
+Instead of taking a direct action, you can complicate the result of the entire engagement 
+by making a Riposte. Roll a twenty-sided die and add your Social Dexterity. If the result 
+is higher than 10, then regardless of the result of the social engagement, there will be 
+a complication. The GM chooses the complication.
 
 ## Experience Points
 
-This is the reward that allows player characters to grow in ability. The Game Master gives out Experience Points at the end of a session based on the players' actions during the session. Experience Points can be awarded for any action by the player characters that has a noticeable impact on the game world.
+This is the reward that allows player characters to grow in ability. The Game Master gives 
+out Experience Points at the end of a session based on the players' actions during the 
+session. Experience Points can be awarded for any action by the player characters that 
+has a noticeable impact on the game world.
 
 ## Player Points
 
-While characters can gain in power as a reward for their active participation in the game world, players should also gain a reward for improving the game experience for everyone. The reward for this is Player Points. Any player at the table, not just the Game Master, can give these out. However, only one can be received by each player per session.
+While characters can gain in power as a reward for their active participation in the game 
+world, players should also gain a reward for improving the game experience for everyone. 
+The reward for this is Player Points. Any player at the table, not just the Game Master, 
+can give these out. However, only one can be received by each player per session.
 
-Player Points can be spent to alter or enhance the player character's backstory, appearance, or other aspects of the character outside of their game mechanics. The Game Master should use their discretion in determining the cost of such changes.
+Player Points can be spent to alter or enhance the player character's backstory, appearance, 
+or other aspects of the character outside of their game mechanics. The Game Master should 
+use their discretion in determining the cost of such changes.
 
 # Magic
 
-Magic is a force both intrinsically linked to the world and wholly separate from it. It is the root of all creation, all destruction, all life, and all death. It is also a force unto itself. Some beings exhibit unusual abilities born of it. Others learn how to manipulate its links to the world in order to have some small control over it.
+Magic is a force both intrinsically linked to the world and wholly separate from it. It is 
+the root of all creation, all destruction, all life, and all death. It is also a force unto 
+itself. Some beings exhibit unusual abilities born of it. Others learn how to manipulate its 
+links to the world in order to have some small control over it.
 
-Despite its omnipresence, magic does not manifest strongly in the world. There are no spell-casters in the traditional sense. In game terms, characters will only ever have a handful of pre-defined magical abilities at most.
+Despite its omnipresence, magic does not manifest strongly in this world. There are no 
+spell-casters in the traditional sense. In game terms, characters will only ever have 
+a handful of pre-defined magical abilities at most.
 
 # Classes
 
-The following are the classes of Vox Draconis. They are professions, followings, or other life pursuits.
+The following are the classes of Vox Draconis. They are professions, followings, or 
+other life pursuits. Each class will give you some background information, some
+unique abilities, and a set of skill proficiencies.
 
 ## Dragon-Bonded
 
@@ -181,6 +260,12 @@ they do.
 - **Telepathic Link:** You can communicate with your bond-mate in words and images, no matter how much distance is between
 you.
 
+### Dragon-Bonded Skill Proficiencies
+
+* Dragonriding +1
+* Dragon Medicine +1
+* Lance +1
+
 ## Raptor-Bonded
 
 The Ardonans are fierce tribal warriors whose lives revolve around fighting. They live in the jungles of Ardona, home to many
@@ -199,14 +284,36 @@ before needing to break the link, and you can only do it once every hour. The se
 duration.
 - **Empathic Link:** You can communicate with your bond-mate in emotions and images, no matter how much distance is between you.
 
+### Raptor-Bonded Skill Proficiencies
+
+* Raptor-riding +1
+* Raptor Medicine +1
+* Hunting +1
+* Spear +1
+
 ## Knight of the Realm
 
-Noble warrior, lives according to a code.
+Knights of the Realm are trained warriors who adhere to a strict code of honor. They hail from
+many different kingdoms, and owe allegiance to a noble family. When a member of that noble
+family calls for their service, they must give it. A Knight of the Realm is almost always
+a noble themselves.
+
+Knights are as skilled in etiquette and courtly ways as they are in combat.
 
 ### Knight of the Realm Abilities
 
-- combat ability, something related to protection
-- social ability, something related to noble birth maybe
+- **Shield Another:** Once per scene, you may take a blow intended for another. You must be within range to interject yourself.
+- **Bond of Honor:** You may make a Bond of Honor with another person by jointly speaking a ritual phrase beginning with "I bind
+myself to..." and ending with "...and to this be true." So long as at least one participant is alive, the bond requires both to
+adhere to the words of the Bond. Breaking the Bond results in catastrophic bad luck for the one who breaks it. Only one Bond may
+be active at a time. If the Bond's wording allows for it to be completed, completion of the Bond ends it without ill effect.
+
+### Knight of the Realm Skill Proficiencies
+
+- Horsemanship +1
+- Etiquette +1
+- Longsword +1
+- Heraldry +1
 
 ## Adjudicator
 
@@ -349,7 +456,7 @@ These are the ancestries of Vox Draconis. At character creation you will pick tw
 You may pick the same ancestry twice. Once you have chosen your ancestries, pick one Major Aspect and two Minor Aspects from their
 lists. The Major Aspect comes from the general ancestries, and the Minor Aspects come from the specific ancestries.
 
-> Alex decides his character's ancestries will be Coastal Human and Plains Human. She chooses the Major Aspect of *Resilient* from the Human
+> Alex decides her character's ancestries will be Coastal Human and Plains Human. She chooses the Major Aspect of *Resilient* from the Human
 list, and then the Minor Aspects of *Exceptional Swimmer* and *Natural Rider* from the Coastal Human and Plains Human lists.
 
 Pairings that are biologically incompatible are assumed to have occurred magically or through other supernatural means.
