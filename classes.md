@@ -112,12 +112,30 @@ possesses a small gem that, if shattered, will kill the Adjudicator instantly.
 
 ## Fell Knight
 
-Warrior who made a pact with a dark power for unnatural abilities.
+The followers of the Fell Titan all come from different backgrounds. They share one thing in common: a desperate
+need for power. Each Fell Knight made the pact with the Fell Titan under different circumstances and for different
+reasons, but now they all serve the Titan's will.
+
+These deadly warriors are forever changed by the pact. In exchange for their unquestioning service, they are given
+frightening powers. The longer a Fell Knight has been in service, the more they physically change. Over time, their
+features become more drawn, worn, and emaciated. Eventually, after several years, their flesh - if they have it -
+disappears entirely, and they become skeletal horrors. Unlike mere undead, however, they retain their full intellect
+and free will, except where such will conflicts with the direction of the Fell Titan.
 
 ### Fell Knight Abilities
 
-- sinister magical ability, maybe necrotic or decay-based
-- corrupting influence ability
+- **Wasting Immortality:** A Fell Knight cannot die of old age, instead becoming an animated skeleton over time.
+- **Drain Life:** The touch of a Fell Knight can drain the life force of any living thing. While this causes no
+overt damage, it reduces the lifespan of the creature or plant in question, aging them visibly. This ability can
+only be used once per week, as it weakens the Fell Knight's connection to the Titan. The reduction in lifespan is
+approximately 20% of their current maximum.
+- **Unnatural Strength:** The Fell Knight's strength increases by +1.
+
+### Fell Knight Skill Proficiencies
+
+- Axe +1
+- Mace +1
+- Intimidation +1
 
 ## Star Sage
 
