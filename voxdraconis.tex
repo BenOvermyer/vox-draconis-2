@@ -2,7 +2,10 @@
 \documentclass[letterpaper,table]{voxdraconis}
 \usepackage{multicol}
 
-\usepackage{lmodern}
+% Use the Charter font package
+\usepackage{charter}
+
+% No idea what these do yet
 \usepackage{amssymb,amsmath}
 \usepackage{fixltx2e} % provides \textsubscript
 
@@ -39,7 +42,7 @@
 % Image stuff
 \usepackage{graphicx,grffile}
 \usepackage[export]{adjustbox}
-\graphicspath{ {./images/} }
+\graphicspath{ {./images/} } % sets the location for images
 \makeatletter
 \def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
 \def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
