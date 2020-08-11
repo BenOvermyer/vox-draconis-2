@@ -2,7 +2,6 @@
 \ProvidesClass{voxdraconis}[2020/08/10 Vox Draconis LaTeX class]
 
 \LoadClass[]{book}
-\RequirePackage{xcolor}
 
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax

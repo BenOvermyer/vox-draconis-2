@@ -1,5 +1,5 @@
 % This style is based on pandoc's default, but with lots of options removed.
-\documentclass[letterpaper]{voxdraconis}
+\documentclass[letterpaper,table]{voxdraconis}
 \usepackage{multicol}
 
 \usepackage{lmodern}
@@ -23,10 +23,20 @@
             breaklinks=true}
 \urlstyle{same}  % don't use monospace font for urls
 
+% Use xtab for tables
 \usepackage{xtab}
 \usepackage{booktabs}
+\usepackage[table]{xcolor}
+\definecolor{light-gray}{gray}{0.95}
+
+% Use indexes!
+\usepackage{imakeidx}
+\makeindex
+
+% Use csquotes for block quotes
 \usepackage{csquotes}
 
+% Image stuff
 \usepackage{graphicx,grffile}
 \usepackage[export]{adjustbox}
 \graphicspath{ {./images/} }
@@ -52,6 +62,7 @@
 \newenvironment{RTL}{\beginR}{\endR}
 \newenvironment{LTR}{\beginL}{\endL}
 
+% Begin the document
 \begin{document}
 \frontmatter
 \thispagestyle{empty}
@@ -81,4 +92,7 @@ Preview Copy
 \include{manuscript/equipment}
 \include{manuscript/enemies-and-allies}
 \include{manuscript/world-of-yrda}
+
+\printindex
+
 \end{document}

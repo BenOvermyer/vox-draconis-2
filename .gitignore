@@ -6,3 +6,6 @@ vox-draconis-ksf.latex
 *.log
 *.out
 *.toc
+*.ilg
+*.idx
+*.ind
