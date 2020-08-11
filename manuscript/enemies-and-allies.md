@@ -1,7 +1,12 @@
 \chapter{Enemies and Allies}
 # About Enemies and Allies
 
-These are the non-player characters players might encounter in their adventures. Each is presented with a different set of statistics than player characters. When acting, they use their own abilities as described here rather than the rules for players. Where the rules are unclear for a situation, the Game Master decides how to proceed.
+These are the non-player characters players might encounter in 
+their adventures. Each is presented with a different set of 
+statistics than player characters. When acting, they use their 
+own abilities as described here rather than the rules for players. 
+Where the rules are unclear for a situation, the Game Master decides 
+how to proceed.
 
 Each being in this section is described with the following format.
 
