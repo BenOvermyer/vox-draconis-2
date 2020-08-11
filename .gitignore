@@ -2,3 +2,7 @@
 .DS_Store
 *.original
 vox-draconis-ksf.latex
+*.aux
+*.log
+*.out
+*.toc
