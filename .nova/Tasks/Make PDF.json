@@ -1,9 +1,0 @@
-{
-  "actions" : {
-    "build" : {
-      "enabled" : true,
-      "path" : "build.sh"
-    }
-  },
-  "identifier" : "B1CE7E8D-38B6-454C-B8C1-0A452703BC59"
-}
