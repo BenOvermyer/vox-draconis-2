@@ -6,7 +6,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}}
 \ProcessOptions\relax
 
-\renewcommand{\normalsize}{\fontsize{9}{10}\selectfont}
+\renewcommand{\normalsize}{\fontsize{10}{12}\selectfont}
 \setlength{\textwidth}{17.5cm}
 \setlength{\textheight}{22cm}
 \setcounter{secnumdepth}{0}

@@ -12,7 +12,9 @@ enemy has a separate turn.
 \section{Turn Order}
 
 Outside of combat, turns can occur in whatever order fits the
-scene. In combat, there are four phases in which participants
+scene.\index{turn order, noncombat}
+
+In combat, there are four phases in which participants\index{turn order, combat}
 act. Players can choose either to take a Fast Turn\index{fast turn} or a Slow
 Turn\index{slow turn}. Characters controlled by the GM (called Non-Player
 Characters, or NPCs) have the same choice. Turns then play out
@@ -74,7 +76,7 @@ If an action falls under the area described by a skill\index{skill}, a
 character attempting that action must do a skill roll.
 
 A skill roll is an attribute roll, but may also include a "skill
-proficiency" modifier. Skill proficiency is either +1 or +2.
+proficiency" modifier. This adds +1 to the skill roll.
 
 Sometimes, a skill proficiency is required to even attempt a
 particular action. For example, a character would need a skill
@@ -90,8 +92,8 @@ If a player ever gets into a situation that would have dire
 consequences for them, they may make a Crisis Roll\index{crisis roll} to avoid it.
 They roll a twenty-sided die, and if the roll is over 10, they
 succeed. If they fail, they must spend a Crisis Point to avoid
-their fate. If they don't have any Crisis Points to spend, the
-consequences fall on them.
+their fate. If they don't have any Crisis Points to spend, They
+suffer the consequences they were trying to avoid.
 
 A Crisis Roll may be used for such things as avoiding death or
 mitigating the results of a social engagement.
@@ -108,10 +110,14 @@ The following rules govern how combat works.
 
 \subsection{Attacking and Defending}
 
-A character's Defense score is equal to the sum of Armor Points they have plus
-their Physical Dexterity.\index{defense score}
+A character's Defense score is equal to 10 plus the sum of Armor Points they
+have. If they're not wearing armor, add their Physical Dexterity.\index{defense score}
 
-$$Body AP + Helmet AP + Shield AP + PD$$
+$$10 + Body AP + Helmet AP + Shield AP$$
+
+or, for unarmored characters:
+
+$$10 + PD$$
 
 When a character attacks, they roll a twenty-sided die and add their Physical
 Dexterity. If the result is higher than the defender's Defense score, the attack hits.\index{attacking}
@@ -141,8 +147,7 @@ Partly hidden & -1 \\
 \subsection{Damage}
 
 A successful hit deals damage equal to the amount specified by
-the weapon. Melee weapons deal an extra 2 damage if the character's
-Physical Strength is over 15.\index{damage}
+the weapon. Melee weapon damage is modified by the attacker's Physical Strength.\index{damage}
 
 \section{Death}
 
@@ -165,7 +170,7 @@ victor, and the engagement is a draw.\index{social engagement}
 
 No side can go below zero points.
 
-Once the engagement is over, the GM determines the result of the winning argument.
+Once the engagement is over, the players as a group determine the result of the winning argument.
 
 \subsection{Actions in Social Engagements}
 
@@ -186,7 +191,7 @@ $$1d20 + SS$$
 
 You can try and reduce the points of another participant's side. Roll a twenty-sided die
 and add your Social Dexterity. The target number is modified by the other participant's
-Social Dexterity. If you win, the other side loses a point, if possible.
+Social Dexterity. If you win, the other side loses a point.
 
 $$1d20 + SD$$
 
