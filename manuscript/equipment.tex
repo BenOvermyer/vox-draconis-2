@@ -6,6 +6,8 @@ This chapter contains information and statistics for all kinds
 of items, weapons, armor, and other useful things. All costs
 are listed in drachm, which is the standard coin of Yrda.
 
+Items that make use of Resource Dice are denoted with an (R) in their name.
+
 \section{Currency}
 
 The coinage of the realm is the "drachm," a small coin made of silver.
@@ -43,7 +45,56 @@ back at an inn, home, camp, or other base of operations.
 You can wear a helmet and body armor. A shield is held in your
 off hand, if you choose to use one.
 
+\section{Random Equipment Tables}
+
+The following tables are used during character creation. When told
+to roll on one of these tables, roll the specified dice once.
+
+\bottomcaption{Random weapons}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Item(s)}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|l|}
+1 & Dagger \\
+2 & Short sword \\
+3 & Short sword and buckler \\
+4 & Battle axe \\
+5 & Spear \\
+6 & Warhammer OR long sword \\
+7 & Short sword and strapped shield \\
+8 & Long sword and strapped shield \\
+9 & Battle axe and strapped shield \\
+10 & Spear, short sword, and strapped shield \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+\bottomcaption{Random armor}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Item(s)}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|l|}
+1 & Boiled leather \\
+2 & Boiled leather and horned helmet \\
+3 & Brigandine \\
+4 & Brigandine and horned helmet \\
+5 & Chainmail \\
+6 & Chainmail and horned helmet \\
+7 & Chainmail and kettle helm OR nasal helm \\
+8 & Plate armor \\
+9 & Plate armor and horned helmet \\
+10 & Plate armor and great helm OR nasal helm \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
 \section{Equipment Lists}
+
+The following lists show the details of various kinds of equipment.
 
 \subsection{Body Armor}
 
@@ -60,7 +111,7 @@ arms, and legs.
 Boiled leather & 1 & 20d \\
 Brigandine & 2 & 40d \\
 Chainmail & 3 & 80d \\
-Plated armor & 4 & 200d \\
+Plate armor & 4 & 200d \\
 \hline
 \end{xtabular}
 }
@@ -170,6 +221,7 @@ Short Sword & 1d6 & 8d \\
 Spear & 1d8 & 10d \\
 Trident & 1d8 & 20d \\
 Warhammer & 1d6 & 5d \\
+Whip & 1d4 & 2d \\
 \hline
 \end{xtabular}
 }
@@ -203,9 +255,24 @@ Throwing Knife & 1d4 & 10/20/50 & 5s \\
 }
 \end{center}
 
+\bottomcaption{List of ammunition for ranged weapons}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Name}} &
+                       \multicolumn{1}{c|}{\textbf{Cost}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+Arrow (R) & 1s \\
+Bolt, crossbow (R) & 2s \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
 \subsection{Food and Drink}
 
 This is a short list of food and drink prices for common items.
+Unless marked with an (R), these prices are for one-off items in
+a tavern or similar situation.
 
 \bottomcaption{List of food and drink}
 \tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Name}} &
@@ -215,17 +282,21 @@ This is a short list of food and drink prices for common items.
 \begin{xtabular}{|l|l|}
 Ale, cup & 1s \\
 Ale, pint & 2s \\
+Ale (R) & 4s \\
 Beef, roast & 2s \\
 Beer, cup & 1s \\
 Beer, pint & 2s \\
+Beer (R) & 4s \\
 Bread & 1s \\
 Gruel, bowl & 1s \\
 Mead, cup & 1s \\
+Mead (R) & 4s \\
 Mutton, roast & 2s \\
 Rice wine, cup & 2s \\
-Travel rations (1 day) & 1s \\
+Travel rations (R) & 1d \\
 Water, bottle & 2s \\
 Wine, cup & 2s \\
+Wine (R) & 6s \\
 \hline
 \end{xtabular}
 }
@@ -264,7 +335,7 @@ Sack, small & 1s \\
 Satchel & 1s \\
 Tent, 2 person & 1d \\
 Tent, 4 person & 2d \\
-Torch & 1s \\
+Torches (R) & 1s \\
 Waterskin & 1s \\
 \hline
 \end{xtabular}
@@ -281,14 +352,14 @@ This list is for items that would be of use in a dungeon.
 \begin{center}
 {\rowcolors{3}{white}{light-gray}
 \begin{xtabular}{|l|l|}
-Caltrops, 10 & 1s \\
+Caltrops (R) & 1s \\
 Glue, 1 pint & 3s \\
 Hacksaw & 6s \\
 Hammer & 1s \\
 Ladder, 10 feet & 5s \\
 Oil, 1 pint & 1s \\
 Pick, iron & 1d \\
-Pitons, 10 & 1s \\
+Pitons, 4 & 1s \\
 Rope ladder, 10 feet & 3s \\
 Rope, 50 feet & 4s \\
 Saw, iron & 1d \\
@@ -374,8 +445,11 @@ Drake, riding & 8d \\
 Horse, race & 5d \\
 Horse, riding & 4d \\
 Horse, war & 8d \\
+Horse, work & 2d \\
 Mule & 8s \\
 Pony & 2d \\
+Triceratops, war & 20d \\
+Triceratops, work & 15d \\
 \hline
 \end{xtabular}
 }
@@ -412,13 +486,13 @@ but can usually be had for 1s per mile per day.
 {\rowcolors{3}{white}{light-gray}
 \begin{xtabular}{|l|l|}
 Canoe & 5d \\
-Caravel & 10000d \\
+Caravel & 10,000d \\
 Fishing boat & 100d \\
-Frigate & 40000d \\
-Galleon & 50000d \\
-Longship & 4000d \\
-Schooner & 7500d \\
-Sloop & 5000d \\
+Frigate & 40,000d \\
+Galleon & 50,000d \\
+Longship & 4,000d \\
+Schooner & 7,500d \\
+Sloop & 5,000d \\
 \hline
 \end{xtabular}
 }

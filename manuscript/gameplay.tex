@@ -4,10 +4,31 @@
 
 \section{General Gameplay}
 
+The game is divided into "scenes." Each scene is either a combat,
+a social engagement, exploration of a specific area, or
+travel. Each scene opens with the Game Master describing the setting
+and important details and then asking the players for their actions.
+
 The flow of gameplay runs in turns. The Game Master will
 describe a scene, and then players take turns describing
 what they do. In combat, turns are more structured, and each
 enemy has a separate turn.
+
+\section{Maps}
+
+There are two kinds of maps in Vox Draconis: the world map and the
+scene map. The world map is made up of hexes, with each hex being
+a 3 mile area. Each hex will usually have at least one thing of
+interest, whether that's a town, dungeon, landmark, or something else.
+
+The Campaigns chapter goes into more detail on building a world map for
+play in Vox Draconis.
+
+The second kind of map is the scene map. This is more flexible in scale than
+a world map and acts mostly as a reference for scenes. It can be as basic
+as a sketch on paper to as detailed as a full color professionally printed map.
+Its purpose is solely to orient the players in a scene and help them visualize
+the action.
 
 \section{Turn Order}
 
@@ -104,6 +125,127 @@ In combat, a turn lasts roughly 5 seconds of in-game time. Outside
 of combat, a turn takes as much or as little in-game time as the
 scene demands.\index{turn length}
 
+\section{Travel} \index{travel}
+
+A travel scene is the process of moving from one hex on the world map
+to another. Every time the party would move from one hex to another,
+they must do a travel scene.
+
+The GM describes the terrain, the weather, and any other relevant
+details about the transition. The time it takes to travel is listed
+in the table below. Travel along roads will always be quickest. Terrain
+with uneven footing is considered "difficult" terrain. Terrain with many
+obstacles that must be avoided is considered "very difficult" terrain.
+Some terrain, such as sheer mountains, may be completely impassable.
+
+\bottomcaption{Travel times}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Terrain Type}} &
+                       \multicolumn{1}{c|}{\textbf{Time On Foot/Time Mounted}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+Road & 1 hour/30 minutes \\
+Normal & 2 hours/1 hour \\
+Difficult & 3 hours/2 hours \\
+Very Difficult & 4 hours/3 hours \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+Each travel scene, the GM rolls 1d6. If the result is a 1, then the
+party encounters a travel event. Roll 1d10 on the travel event table below
+to determine its nature.
+
+\bottomcaption{Travel events}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Event}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+1-3 & Bad weather \\
+4-5 & Other travellers \\
+6-7 & Hostile animals \\
+8-9 & Hostile characters \\
+10 & Wild magic \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+\subsection{Bad Weather}
+
+Bad weather can take the form of a sandstorm, blizzard, monsoon, or any other
+dangerous weather event. The GM describes the approaching weather and gives the
+party a chance to prepare for it. The results depend on the severity of the
+weather and how well the party prepares. Use imagination and careful description
+to determine this.
+
+If the party decides not to take shelter and instead travel through the weather
+event, travel time is quadrupled, and each character must make a Physical Endurance
+roll of difficulty Hard. If they fail, they suffer harm appropriate to the type
+of weather.
+
+\subsection{Other Travellers}
+
+A group of other travellers can be either positive, negative, or just uneventful.
+This could be something like a passing caravan, a wagon at the side of the road,
+a traveling minstrel, or anything else that fits the region. The GM should describe
+the travellers and give the party a chance to interact with them. If neither party
+chooses to interact, then the travel scene passes uneventfully.
+
+\subsection{Hostile Animals}
+
+This type of travel event is a random encounter with a group of hostile animals. The
+Enemies and Allies chapter has tables to roll on for each biome for random encounters.
+Alternatively, the GM can choose to use a premade encounter of their own.
+
+\subsection{Hostile Characters}
+
+Hostile characters are other travellers or denizens of the region that are actively
+trying to harm the party. The GM can describe the hostile characters and give the
+party a chance to avoid the encounter, or they can just immediately initiate combat.
+As with hostile animals, the Enemies and Allies chapter has tables to roll on for
+these random encounters.
+
+\subsection{Wild Magic}
+
+Wild magic is a random magical effect that occurs in the region. The GM should describe
+the effect and give the party a chance to avoid it. If they do not, then the effect
+occurs. The GM can roll 1d20 on the below table to determine the effect or they can make it up
+on their own.
+
+\bottomcaption{Wild magic effects}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Effect}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+1 & Phantom fire emanates from the ground. \\
+2 & Plants and animals in the region turn strange colors. \\
+3 & A strange mist appears in the air. \\
+4 & Ghostly voices whisper in the party's ears. \\
+5 & A strange light appears in the sky. \\
+6 & Animals from another world emerge from a portal. \\
+7 & The ground transforms into a strange substance. \\
+8 & Music plays from nowhere. \\
+9 & A strange smell fills the air. \\
+10 & Liquid metal bubbles up from the ground. \\
+11 & A strange wind blows through the region. \\
+12 & Lightning erupts from the ground into the sky. \\
+13 & Glimpses of strange places appear briefly around the party. \\
+14 & Plants grow rapidly around the party. \\
+15 & The party teleports to a random hex adjacent to the one they are trying to reach. \\
+16 & The party is transported to a random hex on the world map. \\
+17 & The biome of the hex the party is trying to reach changes. \\
+18 & An eerie mist follows the party until they reach their destination. \\
+19 & The party is transported to a random hex with the same biome. \\
+20 & Plants and animals in the region turn to stone. \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
 \section{Combat}
 
 The following rules govern how combat works.
@@ -149,12 +291,45 @@ Partly hidden & -1 \\
 A successful hit deals damage equal to the amount specified by
 the weapon. Melee weapon damage is modified by the attacker's Physical Strength.\index{damage}
 
+If the damage a character suffers is greater than half their maximum life points, they receive
+a grievous wound. The nature of this wound is up to the GM's discretion.\index{grievous wound}
+Grievous wounds can be healed, but they leave a permanent scar. Grievous wounds that impact a
+character's abilities - such as severed limbs - should allow the player to make a Crisis Roll
+to avoid the grievous wound. If they are successful, they still suffer the life point damage,
+but do not take a grievous wound.
+
 \section{Death}
 
 If a character's Life Points reach zero or less, they fall unconscious. When this happens,
 the character must make a Crisis Roll. If they fail, they must spend a Crisis Point to stay
 alive. If the roll is successful or they spend the Crisis Point, they don't need to continue
 rolling, and the character stabilizes but remains unconscious.\index{death}
+
+\section{Healing and Resting}
+
+Characters must rest to recover from wounds. When the party rests for at least 4 hours, each
+character regains 1d4 Life Points plus their Physical Endurance.\index{healing}
+
+If the party instead rests for an uninterrupted 8 hours, each character heals up to their maximum
+life points.
+
+Note that while life points may return to maximum, grievous wounds may leave scars, and missing
+limbs will not grow back.
+
+\section{Ammunition and Limited Resources}
+
+Rather than tracking individual counts of ammunition, rations, and other limited resources, any
+player character with such resources will instead use a Resource Die for that resource.\index{resource dice}
+
+A Resource Die reflects the amount of that resource the character has. At full capacity, the
+Resource Die is a d8. After any scene where the character uses that resource, the player rolls
+the Resource Die. If the result is 1-2, then the Resource Die is reduced by one die type. If
+the Resource Die is a d4 and the player rolls a 1-2, then that resource is depleted, and the character
+must replenish their stocks before they can use that resource again.
+
+Rations can be replenished by hunting, gathering, or buying food from a settlement. Ammunition
+can be replenished at an appropriate store, through crafting, or perhaps by scavenging in a dungeon. The GM's discretion
+determines the availability of replacements. Note: skill proficiencies can be helpful here.
 
 \section{Social Engagements}
 
