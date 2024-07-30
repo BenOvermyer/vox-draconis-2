@@ -4,7 +4,12 @@
 
 \section{General Gameplay}
 
-The game is divided into "scenes." Each scene is either a combat,
+One player acts as the Game Master and describes each scene for the others.
+
+The others each control a character and describe what their characters do
+in response to the Game Master's description of each scene.
+
+The game is divided into "scenes." Each scene\index{scene} is either a combat,
 a social engagement, exploration of a specific area, or
 travel. Each scene opens with the Game Master describing the setting
 and important details and then asking the players for their actions.
@@ -35,33 +40,13 @@ the action.
 Outside of combat, turns can occur in whatever order fits the
 scene.\index{turn order, noncombat}
 
-In combat, there are four phases in which participants\index{turn order, combat}
-act. Players can choose either to take a Fast Turn\index{fast turn} or a Slow
-Turn\index{slow turn}. Characters controlled by the GM (called Non-Player
-Characters, or NPCs) have the same choice. Turns then play out
-in the following order:
-
-\begin{enumerate}
-  \item Player Fast Turn
-  \item NPC Fast Turn
-  \item Player Slow Turn
-  \item NPC Slow Turn
-\end{enumerate}
-
-\subsection{Fast Turn}
-
-A Fast Turn allows the character to take one major action OR
-one minor action.
-
-\subsection{Slow Turn}
-
-A Slow Turn allows the character to take one major action and
-one minor action, OR two minor actions.
+In combat, turns are based on Initiative. Each participant in combat
+has an Initiative score, and they act in order of descending score.
 
 \section{Actions}
 
 There are two types of action\index{action}: Major and minor. Major actions
-include casting a spell, attacking, setting a trap, or any other
+include attacking, setting a trap, casting a spell, or any other
 action that takes the character's full attention. A minor action
 includes movement, swapping equipped weapons, or other things
 that the character can do while doing major actions.
@@ -89,7 +74,30 @@ Very Hard & 17 \\
 
 $$1d20 + attribute$$
 
-\subsection{Skills and Skill Rolls}
+If the roll is equal to or higher than the target number, the action
+succeeds.
+
+If the roll is more than 5 higher than the target number, the action
+not only succeeds, but the character can optionally add a "flourish"
+to the result. Flourishes are up to the player to describe, but they
+should be something that adds to the scene in a meaningful way. \index{flourish}
+
+If the roll is less than the target number, the action fails. The GM
+describes the consequences of the failure.
+
+If the roll is at least 5 less than the target number, the action fails
+and the GM adds a "complication" to the scene. This is something that
+makes the situation more difficult for the player characters. \index{complication}
+
+\subsection{Narrative Fiat}
+
+If a player really wants to succeed at an action, they can automatically
+succeed without rolling, but at the cost of allowing the GM to add a
+complication to the scene. This is called "narrative fiat." \index{narrative fiat}
+
+Each player can only use narrative fiat once per scene.
+
+\subsection{Skill Rolls}
 
 Many actions in Vox Draconis are covered by simple attribute
 rolls. However, some actions are covered by skills instead.
@@ -97,15 +105,17 @@ If an action falls under the area described by a skill\index{skill}, a
 character attempting that action must do a skill roll.
 
 A skill roll is an attribute roll, but may also include a "skill
-proficiency" modifier. This adds +1 to the skill roll.
+proficiency" modifier. This adds +1 to the skill roll. \index{skill proficiency}
+If you would get a specific skill proficiency from more than one source, you gain a bonus of +2 instead of +1.
+This is called "skill expertise." You can never gain a +3 bonus, however.\index{skill expertise}
 
 Sometimes, a skill proficiency is required to even attempt a
 particular action. For example, a character would need a skill
 proficiency in metallurgy to produce an alloy.
 
 Skill proficiencies are granted by classes in character creation.
-They may also be learned through the course of gameplay. See
-the Developments chapter for further information.
+They may also be learned through the course of gameplay.
+See the Character Advancement chapter for further information.
 
 \section{Crisis Rolls}
 
@@ -118,6 +128,8 @@ suffer the consequences they were trying to avoid.
 
 A Crisis Roll may be used for such things as avoiding death or
 mitigating the results of a social engagement.
+
+Crisis Rolls cannot be used to negate a complication.
 
 \section{The Passage of Time}
 
@@ -140,18 +152,21 @@ Some terrain, such as sheer mountains, may be completely impassable.
 
 \bottomcaption{Travel times}
 \tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Terrain Type}} &
-                       \multicolumn{1}{c|}{\textbf{Time On Foot/Time Mounted}} \\ \hline }
+                       \multicolumn{1}{c|}{\textbf{On Foot}} &
+                       \multicolumn{1}{c|}{\textbf{Mounted}} \\ \hline }
 \begin{center}
 {\rowcolors{3}{white}{light-gray}
-\begin{xtabular}{|l|l|}
-Road & 1 hour/30 minutes \\
-Normal & 2 hours/1 hour \\
-Difficult & 3 hours/2 hours \\
-Very Difficult & 4 hours/3 hours \\
+\begin{xtabular}{|l|l|l|}
+Road & 1 hour & 30 minutes \\
+Normal & 2 hours & 1 hour \\
+Difficult & 3 hours & 2 hours \\
+Very Difficult & 4 hours & 3 hours \\
 \hline
 \end{xtabular}
 }
 \end{center}
+
+\subsection{Travel Events}
 
 Each travel scene, the GM rolls 1d6. If the result is a 1, then the
 party encounters a travel event. Roll 1d10 on the travel event table below
@@ -164,16 +179,15 @@ to determine its nature.
 {\rowcolors{3}{white}{light-gray}
 \begin{xtabular}{|l|l|}
 1-3 & Bad weather \\
-4-5 & Other travellers \\
-6-7 & Hostile animals \\
-8-9 & Hostile characters \\
-10 & Wild magic \\
+4-6 & Other travellers \\
+7-8 & Hostile animals \\
+9-10 & Hostile characters \\
 \hline
 \end{xtabular}
 }
 \end{center}
 
-\subsection{Bad Weather}
+\subsubsection{Bad Weather}
 
 Bad weather can take the form of a sandstorm, blizzard, monsoon, or any other
 dangerous weather event. The GM describes the approaching weather and gives the
@@ -182,11 +196,11 @@ weather and how well the party prepares. Use imagination and careful description
 to determine this.
 
 If the party decides not to take shelter and instead travel through the weather
-event, travel time is quadrupled, and each character must make a Physical Endurance
+event, travel time is quadrupled, and each character must make a Physical Toughness
 roll of difficulty Hard. If they fail, they suffer harm appropriate to the type
 of weather.
 
-\subsection{Other Travellers}
+\subsubsection{Other Travellers}
 
 A group of other travellers can be either positive, negative, or just uneventful.
 This could be something like a passing caravan, a wagon at the side of the road,
@@ -194,53 +208,93 @@ a traveling minstrel, or anything else that fits the region. The GM should descr
 the travellers and give the party a chance to interact with them. If neither party
 chooses to interact, then the travel scene passes uneventfully.
 
-\subsection{Hostile Animals}
+\subsubsection{Hostile Animals}
 
 This type of travel event is a random encounter with a group of hostile animals. The
-Enemies and Allies chapter has tables to roll on for each biome for random encounters.
+Allies and Enemies chapter has tables to roll on for each biome for random encounters.
 Alternatively, the GM can choose to use a premade encounter of their own.
 
-\subsection{Hostile Characters}
+\subsubsection{Hostile Characters}
 
 Hostile characters are other travellers or denizens of the region that are actively
 trying to harm the party. The GM can describe the hostile characters and give the
 party a chance to avoid the encounter, or they can just immediately initiate combat.
-As with hostile animals, the Enemies and Allies chapter has tables to roll on for
+As with hostile animals, the Allies and Enemies chapter has tables to roll on for
 these random encounters.
 
-\subsection{Wild Magic}
+\subsection{Exploration}
 
-Wild magic is a random magical effect that occurs in the region. The GM should describe
-the effect and give the party a chance to avoid it. If they do not, then the effect
-occurs. The GM can roll 1d20 on the below table to determine the effect or they can make it up
-on their own.
+After a travel scene, the party arrives in their destination hex. If there are any
+undiscovered hexes neighboring the destination hex, the GM draws them out on the
+players' map and describes what they look like from a distance.
 
-\bottomcaption{Wild magic effects}
+Once in a hex, the party may explore it if they have not done so already. Each player
+rolls on the following table.
+
+\bottomcaption{Exploration}
 \tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
-                       \multicolumn{1}{c|}{\textbf{Effect}} \\ \hline }
+                       \multicolumn{1}{c|}{\textbf{Result}} \\ \hline }
 \begin{center}
 {\rowcolors{3}{white}{light-gray}
 \begin{xtabular}{|l|l|}
-1 & Phantom fire emanates from the ground. \\
-2 & Plants and animals in the region turn strange colors. \\
-3 & A strange mist appears in the air. \\
-4 & Ghostly voices whisper in the party's ears. \\
-5 & A strange light appears in the sky. \\
-6 & Animals from another world emerge from a portal. \\
-7 & The ground transforms into a strange substance. \\
-8 & Music plays from nowhere. \\
-9 & A strange smell fills the air. \\
-10 & Liquid metal bubbles up from the ground. \\
-11 & A strange wind blows through the region. \\
-12 & Lightning erupts from the ground into the sky. \\
-13 & Glimpses of strange places appear briefly around the party. \\
-14 & Plants grow rapidly around the party. \\
-15 & The party teleports to a random hex adjacent to the one they are trying to reach. \\
-16 & The party is transported to a random hex on the world map. \\
-17 & The biome of the hex the party is trying to reach changes. \\
-18 & An eerie mist follows the party until they reach their destination. \\
-19 & The party is transported to a random hex with the same biome. \\
-20 & Plants and animals in the region turn to stone. \\
+1-4 & Nothing \\
+5-7 & Natural resource \\
+8-9 & Point of interest \\
+10 & Settlement \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+If the result is natural resource, point of interest, or settlement, that player
+rolls on the appropriate table below. The GM makes a note of the result on the
+players' map and the GM's map.
+
+\bottomcaption{Natural resources}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Result}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+1 & Metal ore \\
+2 & Gem ore \\
+3-5 & Plentiful food \\
+6-8 & Clean water \\
+9-10 & Arable land \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+\bottomcaption{Points of interest}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Result}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+1 & Abandoned fortress \\
+2 & Abandoned village \\
+3 & Abandoned mine \\
+4 & Abandoned temple \\
+5 & Abandoned tower \\
+6 & Giant plantlife \\
+7 & Unusual rock formation \\
+8 & Cavern entrance \\
+\hline
+\end{xtabular}
+}
+\end{center}
+
+\bottomcaption{Settlements}
+\tablefirsthead{\hline \multicolumn{1}{|c|}{\textbf{Roll}} &
+                       \multicolumn{1}{c|}{\textbf{Result}} \\ \hline }
+\begin{center}
+{\rowcolors{3}{white}{light-gray}
+\begin{xtabular}{|l|l|}
+1-4 & Hamlet \\
+5-7 & Village \\
+8-9 & Town \\
+10 & City \\
 \hline
 \end{xtabular}
 }
@@ -250,21 +304,26 @@ on their own.
 
 The following rules govern how combat works.
 
+\subsection{Combat Turns}
+
+On a character's turn in combat, they can take one major action and one minor action.
+They can also opt to take two minor actions and forego the major action.
+
 \subsection{Attacking and Defending}
 
+When a character attacks, they roll a twenty-sided die and add their Physical
+Might. If the result is higher than the defender's Defense score, the attack hits.\index{attacking}
+
+$$1d20 + PD$$
+
 A character's Defense score is equal to 10 plus the sum of Armor Points they
-have. If they're not wearing armor, add their Physical Dexterity.\index{defense score}
+have. If they're not wearing armor, add their Physical Might.\index{defense score}
 
 $$10 + Body AP + Helmet AP + Shield AP$$
 
 or, for unarmored characters:
 
 $$10 + PD$$
-
-When a character attacks, they roll a twenty-sided die and add their Physical
-Dexterity. If the result is higher than the defender's Defense score, the attack hits.\index{attacking}
-
-$$1d20 + PD$$
 
 \subsection{Cover}
 
@@ -288,8 +347,7 @@ Partly hidden & -1 \\
 
 \subsection{Damage}
 
-A successful hit deals damage equal to the amount specified by
-the weapon. Melee weapon damage is modified by the attacker's Physical Strength.\index{damage}
+A successful hit deals damage equal to the amount by which the attack succeeded.\index{damage}
 
 If the damage a character suffers is greater than half their maximum life points, they receive
 a grievous wound. The nature of this wound is up to the GM's discretion.\index{grievous wound}
@@ -308,7 +366,7 @@ rolling, and the character stabilizes but remains unconscious.\index{death}
 \section{Healing and Resting}
 
 Characters must rest to recover from wounds. When the party rests for at least 4 hours, each
-character regains 1d4 Life Points plus their Physical Endurance.\index{healing}
+character regains 1d4 Life Points plus their Physical Toughness.\index{healing}
 
 If the party instead rests for an uninterrupted 8 hours, each character heals up to their maximum
 life points.
@@ -330,6 +388,42 @@ must replenish their stocks before they can use that resource again.
 Rations can be replenished by hunting, gathering, or buying food from a settlement. Ammunition
 can be replenished at an appropriate store, through crafting, or perhaps by scavenging in a dungeon. The GM's discretion
 determines the availability of replacements. Note: skill proficiencies can be helpful here.
+
+\section{Magic}
+
+Magic is based on the manipulation of anima, the mystical energy that suffuses the world of Yrda.
+Spellcasting cultures vary in how they use anima and what they use it for. Generally, spellcasters
+learn to attune themselves to a particular kind of anima, and their spells reflect that attunement.
+Other types of anima become more difficult for them to manipulate, and they may even be completely
+unable to use anima that is diametrically opposed to their attunement.
+
+\subsection{Spellcasting}
+
+Casting a spell is a major action. It always uses Anima Might for the roll. If the roll is successful,
+the spell is cast. If the roll is more than 5 higher than the target number, the spell is cast with
+irresistible force, and it cannot be canceled or dispelled. If the roll is less than the target number,
+the spell goes awry, and the anima has an effect that the caster did not intend. The player determines
+this effect. If the roll is at least 5 less than the target number, the spell goes badly awry, and the GM
+determines the effect.
+
+\subsection{Spells}
+
+There is no set list of spells. Instead, when casting a spell, the player describes what they want the
+effect to be. The GM then determines the target number based on the difficulty of the effect.
+
+The character's spells must be related to their anima attunement. If a character is attuned to fire,
+they can cast spells that manipulate fire, but they cannot cast spells that manipulate water.
+
+If a spell would cause damage to a living target, the damage dealt is equal to the amount by which the
+spell's roll differs from the target number.\index{spell damage}
+
+If the spell is not cast with irresistible force, the target can make an Anima Toughness roll to resist
+the spell's damage.\index{spell defense} If the target's roll is higher than the spell's roll, they avoid
+any damage from the spell. Effects other than damage still occur.
+
+Spells that have ongoing effects which target a living creature can be broken on a future turn, either by
+the caster at will or by the target. For the target to do it, they must make an Anima Toughness roll of
+difficulty Moderate. If they succeed, the spell is broken.\index{spell breaking}
 
 \section{Social Engagements}
 
@@ -356,24 +450,24 @@ make is. Use the target number table from the Actions section.
 
 \subsubsection{Persuade}
 
-This is an attempt to convince another participant of the correctness of your argument. Roll a
-twenty-sided die and add your Social Strength. The target number is modified by the other
-participant's Social Endurance.
+This is an attempt to convince another participant of the correctness of your argument. Make a
+Social Might attribute roll. The target number is a difficulty the GM sets modified by the other
+participant's Social Toughness. If you succeed, you gain one point for your side.
 
 $$1d20 + SS$$
 
 \subsubsection{Dissuade}
 
 You can try and reduce the points of another participant's side. Roll a twenty-sided die
-and add your Social Dexterity. The target number is modified by the other participant's
-Social Dexterity. If you win, the other side loses a point.
+and add your Social Might. The target number is modified by the other participant's
+Social Might. If you win, the other side loses a point.
 
 $$1d20 + SD$$
 
 \subsubsection{Riposte}
 
 Instead of taking a direct action, you can complicate the result of the entire engagement
-by making a Riposte. Roll a twenty-sided die and add your Social Dexterity. If the result
+by making a Riposte. Roll a twenty-sided die and add your Social Might. If the result
 is higher than 10, then regardless of the result of the social engagement, there will be
 a complication. The GM chooses the complication.
 
