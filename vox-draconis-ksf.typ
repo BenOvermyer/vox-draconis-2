@@ -33,7 +33,7 @@
 
 #outline(depth: 3)
 
-#set page(columns: 2)
+#set page(columns: 2, numbering: "1")
 #set columns(gutter: 12pt)
 
 #import "templates/chapter.typ": chapter_header
