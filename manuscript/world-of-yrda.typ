@@ -20,6 +20,8 @@ time. What lies beyond the vast oceans is unknown.
 
 == Anima
 
+#index[anima]
+
 The world of Yrda is suffused with a mystical energy called
 _anima_. This energy is the source of most magic. Anima is drawn
 to places and creatures that use it, and its nature shifts over time to
@@ -27,7 +29,7 @@ reflect how it is used.
 
 For example, a place where a lot of healing magic is used might have a
 calming, soothing anima. A place where a lot of destructive magic is
-used might have a violent, chaotic #index[anima]. Areas with a significant
+used might have a violent, chaotic anima. Areas with a significant
 elemental focus might have anima that is associated with that element.
 
 == Important Kingdoms and Cultures

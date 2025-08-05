@@ -39,7 +39,7 @@ for sale online or in local shops that specialize in tabletop games.
 == Common Acronyms
 
 Through the text, there will be shortened references to various
-concepts. The following is a guide to these #index[acronyms].
+concepts. The following is a guide to these acronyms. #index[acronyms]
 
 - AD: Anima Might
 

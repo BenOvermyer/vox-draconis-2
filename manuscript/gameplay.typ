@@ -40,6 +40,24 @@ Outside of combat, turns can occur in whatever order fits the scene.
 In combat, turns are based on Initiative. Each participant in combat has
 an Initiative score, and they act in order of descending score.
 
+If at least one of the participants is surprised by the combat,
+then there is a surprise round. In this round, the side that is not
+surprised acts, and the surprised side does not. After the surprise
+round, turn order proceeds normally. #index[surprise round]
+
+Turn order is divided into two phases: the player phase and the enemy
+phase. During the player phase, each player character takes a turn in
+order of descending Initiative. After all player characters have acted,
+the enemy phase begins. Each enemy takes a turn in order of descending
+Initiative.
+
+After the enemy phase, the player phase begins again, and the cycle continues
+until combat ends.
+
+In the event of a tie in Initiative, the character with the highest Physical
+Might goes first. If there is still a tie, the Game Master determines who goes
+first.
+
 == Actions
 
 There are two types of action: Major and minor. Major actions include
@@ -89,7 +107,7 @@ If a player really wants to succeed at an action, they can automatically
 succeed without rolling, but at the cost of allowing the GM to add a
 complication to the scene. This is called "narrative fiat."
 
-Each player can only use #index[narrative fiat] once per scene.
+Each player can only use narrative fiat once per scene. #index[narrative fiat]
 
 === Skill Rolls
 
