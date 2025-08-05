@@ -27,6 +27,9 @@
 
 #pagebreak()
 
+#set page(numbering: "i")
+#counter(page).update(1)
+
 #include("manuscript/credits.typ")
 
 #pagebreak()
@@ -37,6 +40,8 @@
 #set columns(gutter: 12pt)
 
 #import "templates/chapter.typ": chapter_header
+
+#counter(page).update(1)
 
 #chapter_header[Introduction to Vox Draconis]
 #include("manuscript/introduction.typ")
